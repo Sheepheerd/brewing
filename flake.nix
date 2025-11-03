@@ -2,7 +2,7 @@
   description = "Develop Elixir on Nix";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1.886100.tar.gz";
   };
 
   outputs =
