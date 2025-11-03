@@ -22,6 +22,7 @@
           default = pkgs.mkShell {
             packages = with pkgs; [
               elixir
+              beamMinimal27Packages.elixir-ls
             ];
 
             shellHook = '''';
