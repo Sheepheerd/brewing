@@ -23,6 +23,7 @@
             packages = with pkgs; [
               elixir
               beamMinimal27Packages.elixir-ls
+              tmux
             ];
 
             shellHook = '''';
